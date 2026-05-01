@@ -1,0 +1,14 @@
+# Gowin EDA generated files
+impl/
+*.log
+*.vo
+*.fs
+
+# C/C++ build artifacts (Tùy chọn: Thường người ta không push file build lên, nhưng vì đây là đồ án mẫu, bạn có thể giữ lại thư mục build/ để người khác dễ hình dung)
+# *.o
+# *.elf
+# *.bin
+
+# Python caches
+__pycache__/
+*.pyc

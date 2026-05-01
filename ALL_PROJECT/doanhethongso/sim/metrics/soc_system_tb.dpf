@@ -1,0 +1,16 @@
+---
+version: '0.2'
+work_dir: .
+design_root_dir: ../..
+simulations:
+  - name: soc_run_1
+    options: -top work.soc_system_tb +acc -waves waves.mxd
+source_files:
+  - language: verilog
+    path: design_file_list.txt
+    options: +acc
+    file_list: relative-to-file
+  - language: verilog
+    path: ../testbench/soc_system_tb.v
+    options: +acc
+library_search_paths: []

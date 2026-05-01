@@ -1,0 +1,9 @@
+../../src/soc_top.v
+../../src/soc_ram.v
+../../src/picorv32_wb_optimized.v
+../../src/soc_interconnect.v
+../../src/uart_rx_wb.v
+../../src/spi_tft_controller.v
+../../src/font_rom.v
+../../src/hamming_secded_core.v
+../../src/hamming_wb_wrapper.v
